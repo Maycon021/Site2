@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0px;
+}
+
+body{
+	font-family: calibri;
+	font-size: 	2rem;
+	margin: 	0;
+	padding: 	0px;
+}
+
+
+header{
+	text-align: center;
+	background: #836FFF	;
+	color: white;
+	font-size: 	2rem;
+	padding: 	25px;
+
+}
+.conteudo1 h1{
+	font-size: 	2.5rem;
+	margin: 	0;
+	 padding-top: 	150px;
+	 color: 	white;
+	 text-shadow: 5px 5px 5px #000;
+
+}
+.conteudo1 h2{
+	color: 	yellow;
+	font-size: 	3rem;
+	margin-top: 	0px;
+	text-shadow: 5px 5px 5px #000;
+}
+
+
+.conteudo1{
+
+	width: 	100%;
+	height: 	500px;
+	background-image: url(mega.jpg)   ;
+	 background-size: 	100%;
+   background-position:center	 ;
+   text-align: 	center	;
+   
+}
+.conteudo2{
+	text-align: 	center	;
+}
+.conteudo2 img {
+	width: 	40%;
+	height:350px;
+}
+
+.conteudo2 p{
+	display: 	inline-block;
+	width: 	40%;
+	vertical-align: top;
+	font-size: 	1.5rem;
+	padding-top: 	45px;
+}
+.conteudo3{
+	color: 	white	;
+
+	text-align: 	center	;
+	background: #1E90FF	;
+}
+.conteudo3 h2{
+	text-shadow: 2px 2px 2px #000;
+}
+
+.conteudo3 a {
+	text-decoration:none;
+	background: 	green;
+	color: white;
+	border-radius: 	10px;
+	
+	
+
+
+}
+
+footer{
+	background: black;
+	color: 	white;
+	text-align: 	center	;
+	padding: 	25px;
+	font-size: 	1rem;
+}
+
+@media screen and (max-width: 768px){
+	.conteudo2 p {
+		display: 	block;
+		width: 	100%;
+	}
+
+}
